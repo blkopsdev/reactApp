@@ -20,16 +20,16 @@ class App extends React.Component {
 }
 
 App.propTypes = {
-    propArray: React.PropTypes.array.isRequired,
-    propBool: React.PropTypes.bool.isRequired,
-    propFunc: React.PropTypes.func,
-    propNumber: React.PropTypes.number,
-    propString: React.PropTypes.string,
-    propObject: React.PropTypes.object,
+    propArray: PropTypes.array.isRequired,
+    propBool: PropTypes.bool.isRequired,
+    propFunc: PropTypes.func,
+    propNumber: PropTypes.number,
+    propString: PropTypes.string,
+    propObject: PropTypes.object,
 }
 
 App.defaultProps = {
-    propArray: [1,2,3,4,5],
+    propArray: [1, 2, 3, 4, 5],
     propBool: true,
     propFunc: function(e){return e},
     propNumber: 1,
